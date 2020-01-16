@@ -11,12 +11,12 @@ body {
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	/*margin: 0 auto;*/
-  margin: 0;
-  max-width: 70%;
-  /*min-width: 70%;*/
-  /*border-left: 1px solid black;*/
-  /*border-right: 1px solid black;*/
-  /*background: grey;*/
+	margin: 0;
+	max-width: 70%;
+	/*min-width: 70%;*/
+	/*border-left: 1px solid black;*/
+	/*border-right: 1px solid black;*/
+	/*background: grey;*/
 }
 
 #layout-menu {
@@ -25,26 +25,26 @@ body {
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.0em;
+	font-size: 0.75em;
 	width: auto;
 	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
+	text-align: left;
+	vertical-align: top;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-    vertical-align: top;
+	vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
+	border: none;
+	background: white;
+	text-align: left;
+	vertical-align: top;
 }
 
 #layout-menu a {
@@ -57,7 +57,7 @@ tt {
 }
 
 pre, tt {
-	font-size: 90%;
+	font-size: 75%;
 	font-family: monaco, monospace;
 }
 
@@ -151,6 +151,7 @@ h3 {
 }
 
 p {
+	font-size: 75%;
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;

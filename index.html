@@ -1,62 +1,122 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Dhriti Khanna</title>
-</head>
-<body>
-<table summary="Table for page layout." id="tlayout">
-<tr valign="top">
-<td id="layout-menu">
-<div class="menu-category">Dhriti Khanna</div>
-<div class="menu-item"><a href="index.html" class="current">About</a></div>
-<div class="menu-item"><a href="education.html">Education</a></div>
-<div class="menu-item"><a href="publications.html">Publications</a></div>
-<div class="menu-item"><a href="">CV</a></div>
-<div class="menu-category">Experience</div>
-<div class="menu-item"><a href="internships.html">Internships</a></div>
-<div class="menu-item"><a href="jobs.html">Jobs</a></div>
-<div class="menu-category">Miscellaneous</div>
-<div class="menu-item"><a href="services.html">Services</a></div>
-<div class="menu-item"><a href="awards.html">Acheivements</a></div>
-<div class="menu-item"><a href="http://pag.iiitd.edu.in/blogs/dhriti-khanna">Blog</a></div>
-<div class="menu-item"><a href="personal.html">Personal</a></div>
-</td>
-<td id="layout-content">
-<div id="toptitle">
-<h1>About</h1>
-</div>
-<table class="imgtable"><tr><td>
-<img style="border:1px solid maroon" src="DhritiPassport.jpg" alt="Picture" width="170px" height="200px" />&nbsp;</td>
-<td align="left"><p><b>Dhriti Khanna</b> <br />
-<i>Graduate Student</i> <br />
-dhritik<i>_deletethis_</i>@iiitd.ac.in <br />
-A-518, 5th floor, R&D building <br />
-<a href="https://iiitd.ac.in/">Indraprastha Institute of Information Technology, Delhi</a> <br /></p>
-</td></tr></table>
-<p align="justify">Hello. I am a 5th Ph.D. student in IIIT Delhi. I am jointly advised by <a href="https://www.iiitd.edu.in/~purandare/">Dr. Rahul Purandare</a> and <a href="https://subodhvsharma.github.io/">Dr. Subodh Sharma</a>. My Ph.D. is supported by the prestigious TCS fellowship. I am a member of the <a href="pag.iiitd.edu.in/">Program Analysis Group</a> at my university. It is a reading group where we discuss new influential research. We also discuss our ongoing work to get valuable feedback from our peers. 
-<br /></p>
-<h2>News</h2>
-<ul>
-<li><p>Paper titled "Dynamic Symbolic Verification of MPI Programs" accepted in International Symposium on Formal Methods (FM 2018).</p></li>
-</li>
-</ul>
-<p><i><a href="">All...</a></i></p>
-</td>
-</tr>
-</table>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-76004868-2', 'auto');
-  ga('send', 'pageview');
-</script>
-</body>
-</html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+      />
+    <link rel="stylesheet" href="./public/index.css" />
+    <title>Dhriti Khanna</title>
+  </head>
+  <body>
+    <div class="card-columns">
 
+      <div class="card p-3">
+        <div class="card-body">
+          <h5 class="card-title">Internships</h5>
+          <div class="card-text">
+            <div class="font-weight-bold pt-3 pb-3">
+              <a href="http://www.tcs-trddc.com/">TCS, Tata Research Development and Design Centre (TRDDC), Pune</a>
+              <p><b>Period: 6<sup>th</sup> May to 17<sup>th</sup> August 2018; <br /> Mentors: Anand Yeolekar, R. Venkatesh</b></p>
+            </div>
+            I was assigned the task of optimization of verifying sequentialized concurrent programs. The work on sequentialization translated the parallel program into a sequential program by nondeterministically assigning timestamps to the read and write memory accesses and they encode the semantics of the memory model as constraints on these timestamps. The set of interleavings this sequential program can simulate is same as that of the parallel program. Even though sequentializing a program improves the performance over model checking a parallel program, all the interleavings are explored and the time is not reduced drastically. Although an abstract program represent an over approximation program and there are more interleavings than the original program, model checking an abstract program is easier because it is less constrained. When we replay the counter example on the original program, it may result into a spurious counter example because it does not violate the assertion.
+          </div>
+        </div>
+      </div>
+
+      <div class="card p-3">
+        <div class="card-body">
+          <h5 class="card-title">Education</h5>
+          <p class="card-text">
+          <ul>
+            <li>
+              <b>PhD : August 2015 to Present</b> from IIIT Delhi
+            </li>
+            <li>
+              <b>Master of Computer Sciences : 2010 - 2012</b> from University of Delhi
+            </li>
+            <li>
+              <b>Bachelor of Computer Science : 2007 - 2010</b> from University of Delhi
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./public/DhritiPassport.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <center><h5 class="card-title">Dhriti Khanna</h5></center>
+          <center>
+            <h5 class="card-subtitle mb-2 text-muted">
+              Graduate Student, dhritik@iiitd.ac.in
+            </h5>
+          </center>
+          <p class="card-text">
+          Hello. I am a 5th year Ph.D. student in IIIT Delhi. I am jointly
+          advised by
+          <a href="https://www.iiitd.edu.in/~purandare/"
+             >Dr. Rahul Purandare</a
+           >
+           and
+           <a href="https://subodhvsharma.github.io/">Dr. Subodh Sharma</a> My
+           Ph.D. is supported by the prestigious TCS fellowship. I am a member
+           of the <a href="pag.iiitd.edu.in/">Program Analysis Group</a> at my
+           university. It is a reading group where we discuss new influential
+           research. We also discuss our ongoing work to get valuable feedback
+           from our peers. 
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+          <ul>
+            <li>Date of Birth - 6th October, 1989</li>
+            <li>Hometown - New Delhi</li>
+            <li>Native Languages - English, Hindi</li>
+            <li>I believe in a minimalist lifestyle. What goes around, comes around</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-3">
+        <div class="card-body">
+          <h5 class="card-title">My Publications</h5>
+          <p class="card-text">
+          <ul>
+            <li class="pt-2">
+              Dhriti Khanna, Subodh Sharma, Cesar Rodríguez, Rahul Purandare. 2018. Dynamic Symbolic Verification of MPI Programs. In International Symposium on Formal Methods (FM'18). Springer, Cham, Oxford, London, UK. 466-484.<br /><a href="https://link.springer.com/chapter/10.1007/978-3-319-95582-7_28">Paper</a>
+            </li>
+            <li class="pt-2">
+              Dhriti Khanna. 2018. Analysis and Verification of Message Passing based Parallel Programs. In the Doctoral Symposium, FLoC 2018. <br /><a href="http://t-news.cn/Floc2018/FLoC2018-pages/proceedings_paper_656.pdf">Paper</a>
+            </li>
+            <li class="pt-2">
+              Sukrit Kalra, Ayush Goel, Dhriti Khanna, Mohan Dhawan, Subodh Sharma, and Rahul Purandare. 2016. POLLUX: safely upgrading dependent application libraries. In Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering (FSE 2016). ACM, New York, NY, USA, 290-300.<br /><a href="https://dl.acm.org/citation.cfm?id=2950345">Paper</a>
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This card has even longer content than the
+          first to show that equal height action.
+          </p>
+          <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

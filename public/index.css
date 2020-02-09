@@ -3,6 +3,12 @@ ul {
   list-style: none;
 }
 
+.card-title {
+  text-transform : uppercase;
+  text-align : center;
+  color : #ff0266;
+}
+
 body {
   margin: 0 auto;
   width: 98%;
